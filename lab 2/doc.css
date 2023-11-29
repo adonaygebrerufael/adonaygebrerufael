@@ -1,0 +1,91 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Heading styles */
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+}
+
+/* Bold text for emphasis */
+b {
+    font-weight: bold;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Ordered list styles */
+ol {
+    padding-left: 20px;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+/* Specific styles for the mood images */
+#happy-image, #sad-image {
+    width: 25%;
+}
+
+/* Fun facts about neighbours */
+.fun-facts {
+    background-color: #e9ecef;
+    border-left: 3px solid #007bff;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/* First-letter styling for paragraphs */
+p::first-letter {
+    font-size: 200%;
+    color: #007bff;
+}
+.markdown-body li {
+    word-break: break-all; /* OR overflow-wrap: break-word; */
+}
+
+.markdown-body pre code, .markdown-body pre tt {
+    max-width: 100%; /* OR max-width: none; if you do not want to limit the width */
+}
