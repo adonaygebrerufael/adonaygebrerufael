@@ -14,9 +14,10 @@ foo()
 foo(1)
 foo(1,2)
 foo(1,2)*/
- const str="Hello";
- const arr=[...str];
- console.log(arr);
+//  const str="Hello";
+//  const arr=[...str];
+//  console.log(arr);
+alert('hello');
 
  
 
