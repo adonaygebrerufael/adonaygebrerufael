@@ -33,7 +33,7 @@ function max1(a1,a2){
     return true;
     return false;
     }
-    console.log(vowel('aj'));
+    console.log(vowel('a'));
 
 
 
